@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <meta name="description" content="A cool thing made with Gomix">
+    <link id="favicon" rel="icon" href="https://gomix.com/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1>
+    Tic Tac Toe
+    </h1>
+    <div class="container-wrapper">
+  <div class="outer-container game-choice">
+    <p>How do you want to play?</p>
+    <button id="2p-button">Two Player</button>
+  </div>
+  <div class="outer-container game-start">
+    <p>Would you be like to be X or O?</p>
+    <button id="x-button">X</button>
+    <button id="back-button">back</button>
+  </div>
+  <div class="outer-container game-area">
+    <button class="btn btn0"></button>
+    <button class="btn btn1"></button>
+    <button  class="btn btn2"></button>
+    <button  class="btn btn3"></button>
+    <button  class="btn btn4"></button>
+    <button  class="btn btn5"></button>
+    <button  class="btn btn6"></button>
+    <button  class="btn btn7"></button>
+    <button  class="btn btn8"></button>
+  </div>
+  
+  <div class="player-prompt-container">
+    <p id="P1-prompt" class="player-prompt">Player 1 (X). Go!</p>
+    <p id="P2-prompt" class="player-prompt">Player 2 (O).Go!</p>
+  </div>
+</div> 
+<!--container-wrapper closed -->
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="./client.js"></script>
+
+  </body>
+</html>
