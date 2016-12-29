@@ -18,11 +18,13 @@
     <div class="container-wrapper">
   <div class="outer-container game-choice">
     <p>How do you want to play?</p>
+    <button id="1p-button">One Player</button>
     <button id="2p-button">Two Player</button>
   </div>
   <div class="outer-container game-start">
     <p>Would you be like to be X or O?</p>
     <button id="x-button">X</button>
+    <button id="o-button">O</button>
     <button id="back-button">back</button>
   </div>
   <div class="outer-container game-area">
@@ -36,7 +38,12 @@
     <button  class="btn btn7"></button>
     <button  class="btn btn8"></button>
   </div>
-  
+  <div class="outer-container game-over">
+    <p>Game Over</p>
+    <p class="game-result"></p>
+    <button id="play-again">Play again?</button>
+    <button id="do-nothing">Do nothing</button>
+  </div>
   <div class="player-prompt-container">
     <p id="P1-prompt" class="player-prompt">Player 1 (X). Go!</p>
     <p id="P2-prompt" class="player-prompt">Player 2 (O).Go!</p>
